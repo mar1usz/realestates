@@ -1,0 +1,4 @@
+type RealEstate @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  lastUpdateDate: AWSDateTime!
+}
